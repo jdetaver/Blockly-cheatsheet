@@ -1,0 +1,69 @@
+img_string_2_vullen : 
+naam = frederick
+
+img_string_3_lengte van : 
+lengte = 9
+
+img_string_4_substring : 
+naamDeel = ed
+
+img_string_5_replace letter : 
+naam = fredevick
+
+img_string_6_get letter : 
+letter = f
+
+
+img_array_1.1_init 1Dim : 
+lijst1Dim = 
+[0] = 0
+[1] = 0
+[2] = 0
+
+img_array_1.2_init 2Dim : 
+lijst2Dim = 
+[0] = 0,0,0,0,0,0,0
+[1] = 0,0,0,0,0,0,0
+[2] = 0,0,0,0,0,0,0
+[3] = 0,0,0,0,0,0,0
+
+img_array_2_vullen : 
+sprongen = 
+[0] = 345
+[1] = 289
+[2] = 314
+
+
+img_array_3.1_lengte dimentie 1 : 
+aantalRijen = 3
+
+img_array_3.2_lengte dimentie1 van 2dim : 
+aantalRijen = 4
+
+img_array_3.3 lengte dimentie 2 : 
+aantalKolommen = 7
+
+img_array_4_subarray : 
+sprongenDeel = 
+[0] = 345
+[1] = 289
+
+img_array_5_set element 1dim : 
+lijst1Dim = 
+[0] = 0
+[1] = 0
+[2] = 300 (leg de nadruk op 300 dmv bold en passend opvallende achtergrondkleur)
+
+img_array_6_get element 1dim : 
+item = 300
+
+img_array_7_set element 2dim : 
+lijst2Dim = 
+[0] = 0,0,0,0,0,0,0
+[1] = 0,0,0,0,0,0,0
+[2] = 0,0,0,123,0,0,0  (leg de nadruk op 123 dmv bold en passend opvallende achtergrondkleur)
+[3] = 0,0,0,0,0,0,0
+
+img_array_8_get element 2dim : 
+item = 123
+

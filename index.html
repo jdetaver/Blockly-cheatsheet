@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blockly cheatsheet | Strings & arrays</title>
+    <meta name="description" content="Een visuele Blockly-cheatsheet voor strings en arrays.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="./" aria-label="Blockly cheatsheet home">
+                <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span>Blockly<br><strong>cheatsheet</strong></span>
+            </a>
+            <div class="header-meta">
+                <span class="eyebrow">Programmatielogica</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro" aria-labelledby="page-title">
+            <div class="intro-copy">
+                <p class="kicker"><span></span> Blokken in actie</p>
+                <h1>Een compact overzicht van <br><em>strings</em> en <em>arrays</em></h1>
+                <p class="intro-text">Een overzicht van veelgebruikte Blockly-blokken voor strings en arrays. Bekijk per
+                    stap het blok en de waarde die eruit komt.</p>
+            </div>
+            <!-- <div class="intro-note" aria-label="Legenda">
+                <div class="legend-row"><span class="legend-dot white"></span><span>blok</span></div>
+                <div class="legend-row"><span class="legend-dot mint"></span><span>resultaat</span></div>
+                <div class="note-line"></div>
+            </div> -->
+        </section>
+
+        <section class="columns" aria-label="Blockly blokken">
+            <div class="track track-strings">
+                <div class="track-heading">
+                    <div><span class="track-number"></span>
+                        <h2>Strings</h2>
+                    </div>
+                </div>
+                <div class="track-rule"></div>
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">02</span><span class="step-label">Vullen</span></div>
+                    <div class="image-stage"><img src="img/img_string_2_vullen.png"
+                            alt="Blockly-blok voor een string vullen"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>naam = frederick</pre>
+                    </div>
+                </article>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">03</span><span class="step-label">Lengte van</span>
+                    </div>
+                    <div class="image-stage"><img src="img/img_string_3_lengte van.png"
+                            alt="Blockly-blok voor de lengte van een string"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>lengte = 9</pre>
+                    </div>
+                </article>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">04</span><span class="step-label">Substring</span>
+                    </div>
+                    <div class="image-stage"><img src="img/img_string_4_substring.png"
+                            alt="Blockly-blok voor een substring"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>naamDeel = ed</pre>
+                    </div>
+                </article>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">05</span><span class="step-label">Letter
+                            vervangen</span></div>
+                    <div class="image-stage"><img src="img/img_string_5_replace letter.png"
+                            alt="Blockly-blok voor een letter vervangen"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>naam = fredevick</pre>
+                    </div>
+                </article>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">06</span><span class="step-label">Letter
+                            ophalen</span></div>
+                    <div class="image-stage"><img src="img/img_string_6_get letter.png"
+                            alt="Blockly-blok voor een letter ophalen"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>letter = f</pre>
+                    </div>
+                </article>
+            </div>
+
+            <div class="track track-arrays">
+                <div class="track-heading">
+                    <div><span class="track-number"></span>
+                        <h2>Arrays</h2>
+                    </div>
+                </div>
+                <div class="track-rule"></div>
+
+                <article class="step-card wide-result">
+                    <div class="step-top"><span class="step-index">01.1</span><span class="step-label">Initialiseren ·
+                            1D</span></div>
+                    <div class="image-stage"><img src="img/img_array_1.1_init 1Dim.png"
+                            alt="Blockly-blok voor een eendimensionale array initialiseren"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>lijst1Dim =
+[0] = 0
+[1] = 0
+[2] = 0</pre>
+                    </div>
+                </article>
+
+                <article class="step-card wide-result">
+                    <div class="step-top"><span class="step-index">01.2</span><span class="step-label">Initialiseren ·
+                            2D</span></div>
+                    <div class="image-stage"><img src="img/img_array_1.2_init 2Dim.png"
+                            alt="Blockly-blok voor een tweedimensionale array initialiseren"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>lijst2Dim =
+[0] = 0,0,0,0,0,0,0
+[1] = 0,0,0,0,0,0,0
+[2] = 0,0,0,0,0,0,0
+[3] = 0,0,0,0,0,0,0</pre>
+                    </div>
+                </article>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">02</span><span class="step-label">Vullen</span></div>
+                    <div class="image-stage"><img src="img/img_array_2_vullen.png"
+                            alt="Blockly-blok voor een array vullen"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>sprongen =
+[0] = 345
+[1] = 289
+[2] = 314</pre>
+                    </div>
+                </article>
+
+                <div class="step-row">
+                    <article class="step-card">
+                        <div class="step-top"><span class="step-index">03.1</span><span class="step-label">Lengte
+                                dimensie 1</span></div>
+                        <div class="image-stage"><img src="img/img_array_3.1_lengte dimentie 1.png"
+                                alt="Blockly-blok voor lengte van dimensie 1"></div>
+                        <div class="result"><span class="result-label">Resultaat</span>
+                            <pre>aantalRijen = 3</pre>
+                        </div>
+                    </article>
+                    <article class="step-card">
+                        <div class="step-top"><span class="step-index">03.2</span><span class="step-label">Rijen van
+                                2D</span></div>
+                        <div class="image-stage"><img src="img/img_array_3.2_lengte dimentie1 van 2dim.png"
+                                alt="Blockly-blok voor aantal rijen van een tweedimensionale array"></div>
+                        <div class="result"><span class="result-label">Resultaat</span>
+                            <pre>aantalRijen = 4</pre>
+                        </div>
+                    </article>
+                </div>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">03.3</span><span class="step-label">Kolommen van
+                            2D</span></div>
+                    <div class="image-stage"><img src="img/img_array_3.3 lengte dimentie 2.png"
+                            alt="Blockly-blok voor aantal kolommen van een tweedimensionale array"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>aantalKolommen = 7</pre>
+                    </div>
+                </article>
+
+                <article class="step-card">
+                    <div class="step-top"><span class="step-index">04</span><span class="step-label">Subarray</span>
+                    </div>
+                    <div class="image-stage"><img src="img/img_array_4_subarray.png"
+                            alt="Blockly-blok voor een subarray"></div>
+                    <div class="result"><span class="result-label">Resultaat</span>
+                        <pre>sprongenDeel =
+[0] = 345
+[1] = 289</pre>
+                    </div>
+                </article>
+
+                <div class="step-row">
+                    <article class="step-card">
+                        <div class="step-top"><span class="step-index">05</span><span class="step-label">Set element ·
+                                1D</span></div>
+                        <div class="image-stage"><img src="img/img_array_5_set element 1dim.png"
+                                alt="Blockly-blok voor een element instellen in een 1D-array"></div>
+                        <div class="result"><span class="result-label">Resultaat</span>
+                            <pre>lijst1Dim =
+[0] = 0
+[1] = 0
+[2] = <strong>300</strong></pre>
+                        </div>
+                    </article>
+                    <article class="step-card">
+                        <div class="step-top"><span class="step-index">06</span><span class="step-label">Get element ·
+                                1D</span></div>
+                        <div class="image-stage"><img src="img/img_array_6_get element 1dim.png"
+                                alt="Blockly-blok voor een element ophalen uit een 1D-array"></div>
+                        <div class="result"><span class="result-label">Resultaat</span>
+                            <pre>item = 300</pre>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="step-row">
+                    <article class="step-card">
+                        <div class="step-top"><span class="step-index">07</span><span class="step-label">Set element ·
+                                2D</span></div>
+                        <div class="image-stage"><img src="img/img_array_7_set element 2dim.png"
+                                alt="Blockly-blok voor een element instellen in een 2D-array"></div>
+                        <div class="result"><span class="result-label">Resultaat</span>
+                            <pre>[0] = 0,0,0,0,0,0,0
+[1] = 0,0,0,0,0,0,0
+[2] = 0,0,0,<strong>123</strong>,0,0,0
+[3] = 0,0,0,0,0,0,0</pre>
+                        </div>
+                    </article>
+                    <article class="step-card">
+                        <div class="step-top"><span class="step-index">08</span><span class="step-label">Get element ·
+                                2D</span></div>
+                        <div class="image-stage"><img src="img/img_array_8_get element 2dim.png"
+                                alt="Blockly-blok voor een element ophalen uit een 2D-array"></div>
+                        <div class="result"><span class="result-label">Resultaat</span>
+                            <pre>item = 123</pre>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><span>Blockly cheatsheet</span><span>Strings + arrays / 2026</span></footer>
+</body>
+
+</html>
