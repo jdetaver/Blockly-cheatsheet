@@ -11,6 +11,7 @@
   --mint: #b9e3c7;
   --mint-deep: #23614b;
   --yellow: #f5cc56;
+  --image-scale: 0.75;
   --mono: 'DM Mono', 'Courier New', monospace;
   --display: 'Space Grotesk', 'Trebuchet MS', sans-serif;
 }
@@ -87,7 +88,7 @@ h2 { margin: 0; font-size: 32px; letter-spacing: -.06em; }
 .step-label { color: var(--muted); font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; }
 .image-stage { display: flex; align-items: center; min-height: 102px; padding: 18px 20px; background: #fff; }
 .image-stage { background-repeat: no-repeat; }
-.image-stage img { display: block; width: 100%; height: auto; max-height: 190px; object-fit: contain; object-position: left center; image-rendering: auto; }
+.image-stage img { display: block; flex: 0 0 auto; width: auto; max-width: 100%; height: auto; max-height: 190px; object-fit: contain; object-position: left center; image-rendering: auto; }
 .result { padding: 14px 17px 16px; border-top: 1px solid var(--line); background: var(--mint); }
 .result-label { display: block; margin-bottom: 9px; color: var(--mint-deep); font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .1em; }
 pre { margin: 0; color: #111; white-space: pre-wrap; font: 500 13px/1.5 var(--mono); }

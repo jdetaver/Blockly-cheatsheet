@@ -85,7 +85,7 @@
                     <div class="image-stage"><img src="img/img_string_5_replace letter.png"
                             alt="Blockly-blok voor een letter vervangen"></div>
                     <div class="result"><span class="result-label">Resultaat</span>
-                        <pre>naam = fredevick</pre>
+                        <pre>naam = frede<strong>v</strong>ick</pre>
                     </div>
                 </article>
 
@@ -242,6 +242,31 @@
     </main>
 
     <footer class="site-footer"><span>Blockly cheatsheet</span><span>Strings + arrays / 2026</span></footer>
+    <script>
+        const imageScale = parseFloat(getComputedStyle(document.documentElement)
+            .getPropertyValue('--image-scale'));
+
+        function resizeImages() {
+            document.querySelectorAll('.image-stage img').forEach((image) => {
+                if (!image.naturalWidth) return;
+
+                const stage = image.parentElement;
+                const styles = getComputedStyle(stage);
+                const availableWidth = stage.clientWidth
+                    - parseFloat(styles.paddingLeft)
+                    - parseFloat(styles.paddingRight);
+                const preferredWidth = image.naturalWidth * imageScale;
+
+                image.style.width = `${Math.min(preferredWidth, availableWidth)}px`;
+            });
+        }
+
+        document.querySelectorAll('.image-stage img').forEach((image) => {
+            image.addEventListener('load', resizeImages);
+        });
+        window.addEventListener('resize', resizeImages);
+        resizeImages();
+    </script>
 </body>
 
 </html>
